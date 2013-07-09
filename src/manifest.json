@@ -8,6 +8,7 @@
    "background": {
       "scripts": [  "URI.js", "wr.js" ]
    },
+  "options_page": "options.html",
   "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "*://*/*"],
   "update_url": "https://hirotaka.org/files/v4-appender-updates.xml",
   "version": "2013.6.9"

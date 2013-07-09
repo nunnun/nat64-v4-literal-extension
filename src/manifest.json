@@ -1,0 +1,14 @@
+{
+  "name": ".v4 appender",
+  "author": {
+  	"email": "hiro@awa.sfc.keio.ac.jp"
+  },
+  "manifest_version": 2,
+  "description": "Insert .v4 domain to any IPv4 address in the URL.",
+   "background": {
+      "scripts": [  "URI.js", "wr.js" ]
+   },
+  "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "*://*/*"],
+  "update_url": "https://hirotaka.org/files/v4-appender-updates.xml",
+  "version": "2013.6.9"
+}

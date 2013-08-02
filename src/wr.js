@@ -21,4 +21,4 @@ function onBeforeRequest(details) {
  }
 };
 
-wr.onBeforeRequest.addListener(onBeforeRequest, {urls: ["https://*/*", "http://*/*", "ftp://*/*"]}, ["blocking"]);
+wr.onBeforeRequest.addListener(onBeforeRequest, {urls: ["https://*/*", "http://*/*", "ws://*/*", "wss://*/*", "ftp://*/*"]}, ["blocking"]);

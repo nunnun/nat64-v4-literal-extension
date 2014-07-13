@@ -1,15 +1,14 @@
 {
-  "name": ".v4 appender",
+  "name": "IPv4 Address Literal Appender",
   "author": {
   	"email": "hiro@awa.sfc.keio.ac.jp"
   },
   "manifest_version": 2,
-  "description": "Insert .v4 domain to any IPv4 address in the URL.",
+  "description": "Insert .v4 domain to any IPv4 address in the URL. This is an experimental implementation for IPv4 Address Literal in URL.",
    "background": {
       "scripts": [  "URI.js", "wr.js" ]
    },
   "options_page": "options.html",
   "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "*://*/*"],
-  "update_url": "https://hirotaka.org/files/v4-appender-updates.xml",
-  "version": "2013.6.9.1"
+  "version": "2014.07.14.0"
 }

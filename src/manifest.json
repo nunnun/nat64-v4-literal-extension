@@ -10,5 +10,5 @@
    },
   "options_page": "options.html",
   "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "*://*/*"],
-  "version": "2014.07.14.0"
+  "version": "2014.7.14.0"
 }
